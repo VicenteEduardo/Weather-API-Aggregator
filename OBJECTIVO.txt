@@ -1,0 +1,15 @@
+Objectivo do projecto
+======================
+
+Fazer um backend em Python que consulta uma API meteorológica externa
+(Open-Meteo) e devolve os dados num formato próprio, nosso.
+
+Requisitos que quis cumprir:
+- DDD: separar dominio, aplicação, infraestrutura e apresentação
+- TDD: escrever testes antes do código (estão em tests/)
+- SOLID: classes pequenas, caso de uso depende de interfaces,
+  dá para trocar o provider sem mexer no resto
+
+Entradas: latitude+longitude ou nome da cidade.
+Saída: JSON próprio com location, temperature, humidity, wind,
+condition, observed_at e provider.

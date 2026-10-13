@@ -1,0 +1,9 @@
+[project]
+name = "weather-api-aggregator"
+version = "1.0.0"
+description = "Backend DDD + SOLID que consulta Open-Meteo e devolve formato próprio"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
